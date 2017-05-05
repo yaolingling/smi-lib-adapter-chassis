@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <bean id="racadmCredentials" class="com.dell.isg.smi.common.protocol.command.cmc.entity.RacadmCredentials" >
+    	<property name="address" value="172.31.62.225" />
+		<property name="userName" value="root1" />
+		<property name="password" value="calvin1" />
+	</bean>
+    
+	<bean id="chassisAdapterImpl" class="com.dell.isg.smi.adapter.chassis.ChassisAdapterImpl" />
+	
+	<bean id="chassisOnboardingManagerImpl" class="com.dell.isg.smi.adapter.chassis.ChassisOnboardingManagerImpl" />
+    
+</beans>
