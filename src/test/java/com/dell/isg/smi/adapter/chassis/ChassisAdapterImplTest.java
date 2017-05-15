@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import com.dell.isg.smi.common.protocol.command.cmc.entity.Chassis;
 import com.dell.isg.smi.common.protocol.command.cmc.entity.ChassisCMCViewEntity;
 import com.dell.isg.smi.common.protocol.command.cmc.entity.RacadmCredentials;
-import com.dell.isg.smi.commons.elm.utilities.CustomRecursiveToStringStyle;
+import com.dell.isg.smi.commons.utilities.CustomRecursiveToStringStyle;
 import com.dell.isg.smi.adapter.chassis.IChassisAdapter;
 
 /**
