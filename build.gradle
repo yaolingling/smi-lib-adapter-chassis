@@ -128,6 +128,7 @@ uploadArchives {
 	        pom.project {
 				artifactId = "adapter-chassis"
 				packaging 'jar'
+				url 'https://www.github.com/rackhd/smi-lib-adapter-chassis'
 				name 'SMI Chassis Adapter LIB'
 				description 'Chassis Adapter jar library for the System Management Integration (SMI) projects.'
 				inceptionYear '2017'
