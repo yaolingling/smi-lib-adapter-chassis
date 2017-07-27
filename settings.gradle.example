@@ -1,7 +1,2 @@
-include  ':commons-model'
-include  ':commons-elm'
-include ':racadmlib'
-
-project(':racadmlib').projectDir = new File(settingsDir, '../racadmlib')
-project(':commons-model').projectDir = new File (settingsDir, '../commons-model')
-project(':commons-elm').projectDir = new File (settingsDir, '../commons-elm')
+include ':smi-lib-racadm'
+project(':smi-lib-racadm').projectDir = new File(settingsDir, '../smi-lib-racadm')
