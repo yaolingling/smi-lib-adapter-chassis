@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>adapter-chassis</name>
-	<comment>Project chassis-server</comment>
+	<name>smi-lib-adapter-chassis</name>
+	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
