@@ -118,7 +118,7 @@ uploadArchives {
 			}
 	  
 			pom.project {
-				artifactId = "wsmanlib"
+				artifactId = "adapter-chassis"
 				packaging 'jar'
 				url 'https://www.github.com/rackhd/smi-lib-adapter-chassis'
 				name 'SMI Adapter Chassis Library'
